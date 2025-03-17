@@ -1,0 +1,10 @@
+
+
+uvicorn app.main:app --reload
+
+
+uv run client_no_api.py /Users/zhangbeibei/code/github/mcp-send-email/mcp-server/build/index.js
+
+exec send_email {"address": "zhuliderb@gmail.com", "content": "Hello from MCP! i am now 0038"}
+
+
